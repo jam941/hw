@@ -7,6 +7,8 @@ This program will create a tetris image using 4 shapes twice (totaling 8 shapes)
 
 '''
 TURTLE_OFFSET = 0
+X_OFFSET = 0
+Y_OFFSET = 0
 def shift_up():
     '''
     Shifts the cursor up one block
@@ -62,7 +64,8 @@ def draw_block():
     turtle.forward(10)
     turtle.left(90)
     turtle.end_fill()
-
+    
+    
     
 def draw_square():
     '''
@@ -78,6 +81,12 @@ def draw_square():
     draw_block()
     turtle.backward(10)
     draw_block()
+
+    turtle.up()
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.left(90)
+    turtle.down()
 def draw_line():
     '''
     draws the vertical line shape
@@ -92,7 +101,10 @@ def draw_line():
     draw_block()
     shift_up()
     draw_block()
-
+    turtle.up()
+    turtle.right(90)
+    turtle.forward(30)
+    turtle.left(90)
 def shift_down_3():
     '''
     shifts the cursor down 3 blocks
@@ -126,6 +138,9 @@ def draw_el():
     shift_down_3()
     shift_right()
     draw_block()
+    turtle.up()
+    turtle.backward(10)
+    turtle.down()
 
 def backward_el():
     '''
@@ -140,6 +155,10 @@ def backward_el():
     shift_up()
     draw_block()
     turtle.up()
+    turtle.right(90)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.backward(10)
 
 def reset_stack():
     '''
@@ -151,29 +170,52 @@ def reset_stack():
     turtle.left(90)
     turtle.down()
 def return_home(x,y):
+    turtle.up()
     revert_rotate()
     turtle.right(90)
-    turtle.forward(y)
+    turtle.forward(y*10)
     turtle.right(90)
-    turtle.forward(x)
+    turtle.forward(x*10)
     turtle.right(180)
     TURTLE_OFFSET = 0
+    turtle.down()
+
+def move(x,y):
+    turtle.up()
+    turtle.forward(x*10)
+    turtle.left(90)
+    turtle.forward(y*10)
+    turtle.right(90)
+    turtle.down()
+
+
     
 def rotate_shape(angle):
     turtle.left(angle)
-    TURTLE_OFFSET = angle
+    return angle
 
-def revert_rotate():
-    turtle.right(TURTLE_OFFSET)
+def revert_rotate(angle):
+    turtle.right(angle)
 
 def interpret_input(input_shape):
     if(input_shape == 's' or input_shape == 'S'):
         draw_square()
+    elif(input_shape == 'i' or input_shape == 'I'):
+        draw_line()
+    elif(input_shape == 'l' or input_shape == 'L'):
+        draw_el()
+    elif(input_shape == 'j' or input_shape =='J'):
+        backward_el()
     
 
 turtle.speed(0)
 draw_board()
 inp = input('What shape')
+TURTLE_OFFSET=rotate_shape(90)
+test = input('go?')
+print(TURTLE_OFFSET)
+revert_rotate(TURTLE_OFFSET)
 interpret_input(inp)
+turtle.done()
 
 

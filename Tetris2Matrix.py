@@ -10,6 +10,7 @@ This program will create a tetris image using 4 shapes twice (totaling 8 shapes)
 TURTLE_OFFSET = 0
 
 
+
 def shift_up():
     '''
     Shifts the cursor up one block
@@ -322,7 +323,8 @@ def draw_t():
     turtle.down()
 
 
-def interpret_input(input_shape, angle):
+
+def interpret_input(input_shape,angle):
     '''
     Draws a shape given a letter input
 
@@ -347,27 +349,28 @@ def interpret_input(input_shape, angle):
         draw_t()
 
 
-#turtle.speed(0)
+turtle.speed(0)
 draw_board()
-interpret_input('b', 0)
+interpret_input('b',0)
 move(0, 2)
-interpret_input('i', 0)
+interpret_input('i',0)
 return_home(0, 2)
 move(3, 0)
-interpret_input('s', 0)
+interpret_input('s',0)
 return_home(3, 0)
 move(5, 0)
-interpret_input('t', 0)
+interpret_input('t',0)
 return_home(5, 0)
 move(8, 0)
-interpret_input('z', 0)
+interpret_input('z',0)
 return_home(8, 0)
 move(4, 2)
-interpret_input('l', 0)
+interpret_input('l',0)
 return_home(4, 2)
 move(7, 2)
-interpret_input('j', 0)
+interpret_input('j',0)
 return_home(7, 2)
+
 
 shape_input = input('Enter a letter {BILJZST} to choose the shape to place: ')
 angle_input = input('Enter 0,90,180,or 270 for the rotation: ')
@@ -375,7 +378,7 @@ row_input = input('Enter row number (0 to 19) from the bottom left space: ')
 col_input = input('Enter column number (0 to 19) from the bottom left space: ')
 move(int(row_input), int(col_input))
 TURTLE_OFFSET = rotate_shape(int(angle_input))
-interpret_input(shape_input, angle_input)
+interpret_input(shape_input,angle_input)
 revert_rotate(TURTLE_OFFSET)
 return_home(int(row_input), int(col_input))
 turtle.done()

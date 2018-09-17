@@ -49,31 +49,41 @@ def draw_bowtie(size,depth):
     '''
     
     '''
-    if(depth != 0):
+    if(depth >1):
         draw_bowtie1(size)
         turtle.up()
         turtle.left(30)
         turtle.forward(2*size)
         turtle.down()
         draw_bowtie(size/3,depth-1)
+        
         turtle.up()
         turtle.backward(2*size)
-        turtle.left(90)
+        turtle.left(120)
         turtle.forward(2*size)
         turtle.down()
+        
         draw_bowtie(-size/3,depth-1)
         turtle.up()
         turtle.backward(2*size)
-        turtle.left(90)
+        turtle.left(60)
         turtle.forward(2*size)
         turtle.down()
+        
         draw_bowtie(-size/3,depth-1)
         turtle.up()
         turtle.backward(2*size)
-        turtle.left(90)
+        turtle.left(120)
         turtle.forward(2*size)
         turtle.down()
+        
         draw_bowtie(-size/3,depth-1)
+
+        turtle.up()
+        turtle.backward(size*2)
+        turtle.left(30)
+        turtle.down()
+        #turtle.forward(size*2)
 
 def init():
     turtle.setup(600,600)

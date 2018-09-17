@@ -1,11 +1,19 @@
 import turtle
+
+'''
+Author: Jarred Moyer
+Title: bowties.py
+Language: python3
+Description: Uses recursive functions to draw a bowtie pattern to a specific depth and at a set size. Depth given as user input
+Assignment: Lab 3
+'''
+
 def draw_circle(size):
     '''
     Draws a circle centered on the initial point
 
-    Pre-condition: turtle is positioned at the center of a bowtie
-
-    Post-condition: turtle is returned to the center of the bowtie
+    Pre-condition: Turtle is facing east, pen down
+    Post-condition: Turtle is facing east, pen down, fill color set to red
     '''
     turtle.right(90)
     turtle.up()
@@ -27,9 +35,9 @@ def draw_bowtie1(size):
     Draws a bowtie, as well as one 2 times its height and 30 degrees offset from its horizontal,
     as well as one 120 degrees out from its horizontal and 2 times its size away
 
-    Pre-condition: Turtle is at the location where a bowtie will be drawn (the to-be bowtie's center)
+    Pre-condition: turtle facing east, pen down
 
-    Post-condition: Turtle is returned to the center of the original bowtie
+    Post-condition: Turtle facing east, pen down
     '''
     turtle.pencolor('blue')
     turtle.left(30)
@@ -47,7 +55,14 @@ def draw_bowtie1(size):
 
 def draw_bowtie(size,depth):
     '''
-    
+    Draws a pattern of bowties given the size of the base bowtie and how deep the recursive function should run
+
+    int(size): size>0
+    int(depth): depth>1
+
+    Precondition: turtle facing east, pen down
+
+    Postcondition: turtle facing east, pen down
     '''
     if(depth >1):
         draw_bowtie1(size)
@@ -83,7 +98,7 @@ def draw_bowtie(size,depth):
         turtle.backward(size*2)
         turtle.left(30)
         turtle.down()
-        #turtle.forward(size*2)
+        
 
 def init():
     turtle.setup(600,600)

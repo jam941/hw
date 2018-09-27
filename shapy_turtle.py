@@ -37,7 +37,9 @@ def process_triangle(string):
     pass
 
 def proccess_circle(string):
-    pass
+    x = get_num(string)
+    turtle.circle(int(x))
+    return string[len(str(x)):]
 
 def proccess_forward(string):
     pass
@@ -115,4 +117,4 @@ def process_commands(string):
 
 
 
-process_commands('S90')
+process_commands('C90')

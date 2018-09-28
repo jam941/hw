@@ -1,7 +1,7 @@
 import turtle
 
 '''
-Author: Jarred Moyer
+Author: Jarred Moyer <jam4936@rit.edu>
 Title: bowties.py
 Language: python3
 Description: Uses recursive functions to draw a bowtie pattern to a specific depth and at a set size. Depth given as user input
@@ -101,8 +101,18 @@ def draw_bowtie(size,depth):
         
 
 def init():
+    '''
+    Creates a set sized window and returns the depth of the recursive funciton should run until
+
+    '''
     turtle.setup(600,600)
     return(int(input('What depth would you like to run the program until (depth>=1)')))
 def main():
+    '''
+    Draws a bowtie pattern with a base size of 100 pixels to a depth createed by user input.
+    Precondition: turtle facing east, pen down
+    Postcondition: turtle facing east, pen down
+    :return:
+    '''
     draw_bowtie(600/6,init())
 main()

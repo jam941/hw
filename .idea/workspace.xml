@@ -12,32 +12,32 @@
     <session id="-1114945357">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3573" />
+          <entry key="py" value="6882" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3573" />
+          <entry key="Python" value="6882" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Circles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -62,6 +62,36 @@
                 <marker date="1537059904111" expanded="true" signature="681:686" ph="..." />
                 <marker date="1537059904111" expanded="true" signature="1976:2043" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/double_add_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#46#206#0" />
+                <marker date="1537668406063" expanded="true" signature="470:475" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="644:645" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="1321:1486" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="1883:1999" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="2031:2032" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="2031:2285" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="2600:2735" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="2820:2822" ph="..." />
+                <marker date="1537668406063" expanded="true" signature="2820:4002" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bowties.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -91,7 +121,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>turtle.speed</find>
+      <find>recursivly</find>
     </findStrings>
+    <replaceStrings>
+      <replace>recursively</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,6 +136,8 @@
         <option value="$PROJECT_DIR$/Tetris2Matrix.py" />
         <option value="$PROJECT_DIR$/tetris2.py" />
         <option value="$PROJECT_DIR$/Circles.py" />
+        <option value="$PROJECT_DIR$/recursive_clab.py" />
+        <option value="$PROJECT_DIR$/double_add_5.py" />
       </list>
     </option>
   </component>
@@ -115,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,7 +163,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Circles">
+  <component name="RunManager" selected="Python.double_add_5">
     <configuration name="Circles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HW Repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,6 +224,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="double_add_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HW Repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/double_add_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tetris2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HW Repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,9 +270,11 @@
       <item itemvalue="Python.tetris2" />
       <item itemvalue="Python.Tetris2Matrix" />
       <item itemvalue="Python.Circles" />
+      <item itemvalue="Python.double_add_5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.double_add_5" />
         <item itemvalue="Python.Circles" />
         <item itemvalue="Python.Tetris2Matrix" />
         <item itemvalue="Python.tetris2" />
@@ -246,21 +305,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.087987356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49683878" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79610115" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50316125" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20389885" side_tool="true" visible="true" weight="0.3264642" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,6 +358,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recursive_clab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="112" column="46" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Circles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -307,6 +372,32 @@
           <folding>
             <marker date="1537059904111" expanded="true" signature="681:686" ph="..." />
             <marker date="1537059904111" expanded="true" signature="1976:2043" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/double_add_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#46#206#0" />
+            <marker date="1537668406063" expanded="true" signature="470:475" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="644:645" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="1321:1486" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="1883:1999" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="2031:2032" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="2031:2285" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="2600:2735" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="2820:2822" ph="..." />
+            <marker date="1537668406063" expanded="true" signature="2820:4002" ph="..." />
           </folding>
         </state>
       </provider>

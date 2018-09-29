@@ -23,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7976" />
+          <entry key="py" value="8143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7976" />
+          <entry key="Python" value="8143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,12 +48,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab05/file_compare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="45" column="59" lean-forward="true" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
               <folding>
-                <marker date="1538235798152" expanded="true" signature="168:279" ph="..." />
-                <marker date="1538235798152" expanded="true" signature="312:313" ph="..." />
-                <marker date="1538235798152" expanded="true" signature="312:348" ph="..." />
+                <marker date="1538237609760" expanded="true" signature="168:336" ph="..." />
+                <marker date="1538237609760" expanded="true" signature="369:370" ph="..." />
+                <marker date="1538237609760" expanded="true" signature="369:427" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -284,15 +284,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.087987356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1784188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79610115" visible="true" weight="0.3264642" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79610115" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,12 +400,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab05/file_compare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="45" column="59" lean-forward="true" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
           <folding>
-            <marker date="1538235798152" expanded="true" signature="168:279" ph="..." />
-            <marker date="1538235798152" expanded="true" signature="312:313" ph="..." />
-            <marker date="1538235798152" expanded="true" signature="312:348" ph="..." />
+            <marker date="1538237609760" expanded="true" signature="168:336" ph="..." />
+            <marker date="1538237609760" expanded="true" signature="369:370" ph="..." />
+            <marker date="1538237609760" expanded="true" signature="369:427" ph="..." />
           </folding>
         </state>
       </provider>

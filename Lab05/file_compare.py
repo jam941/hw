@@ -12,8 +12,9 @@ def get_file_length(f):
     for i in f:
 
         for k in i:
-
-            count += 1
+            if (k != '\n'):
+                #print(k)
+                count += 1
     return count
 
 
@@ -31,6 +32,7 @@ def char_by_char(file_1, file_2):
 
         if(len(f1_data)!=len(f2_data)):
             mismatch_line += 1
+
             print('Mismatched line: ', count)
         else:
 
@@ -49,4 +51,4 @@ def char_by_char(file_1, file_2):
     print('File ', file_2, 'is ', get_file_length(file_2))
     print('There were ', mismatch, 'mismatched characters')
     print('There were', mismatch_line, 'Mismatched line lengths' )
-char_by_char('t1.txt','t2.txt')
+char_by_char('t3.txt','t4.txt')

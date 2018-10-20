@@ -6,8 +6,6 @@ Description: Uses file handling and for loops to compare two text files
 Assignment: Lab 5
 '''
 
-
-
 def get_file_char_count(f):
     '''
     Gets the total character length of a file f

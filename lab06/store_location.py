@@ -1,17 +1,24 @@
 import math
 def import_data(path):
     f = open(path)
-    data = []
-    line = f.readline()
+    lst = []
+    for i in f:
+        count = 0
+        print(i)
+        for k in i:
+            if(k.isdigit()):
+                break
+            count += 1
+        lst.append((i[count:-1]))
 
-    
-    return data
+    return lst
 
 def quick_sort(data):
 
     if data == []:
         return data
     else:
+        print(data)
         pivot = data[0]
 
         less  = []
@@ -29,11 +36,11 @@ def quick_sort(data):
 
 def find_med(lst):
     sort = quick_sort(lst)
-    length  = len(lst)
+    length  = int(len(lst))
     if(length%2 == 0):
-        return (lst[length/2]+lst[length/2 -1])/2
+        return int(lst[length/2]+lst[length/2 -1])/2
     else:
-        return lst[int(length/2)]
+        return int(lst[int(length/2)])
 
 def distance(lst, shop):
     sum = 0
@@ -47,7 +54,7 @@ def main():
     #path = input('What file would you like to open?  ')
     path = 'data'
     data = import_data(path)
-    print(data)
+
     shop = find_med(data)
 
     total_distance = distance(data,shop)

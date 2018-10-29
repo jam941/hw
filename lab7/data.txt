@@ -1,4 +1,4 @@
-12 12 12
+12 10 12
 Abacus 3
 Blender 5
 Chessboard 3

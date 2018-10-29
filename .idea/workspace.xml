@@ -55,83 +55,50 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="data" value="2" />
-          <entry key="py" value="8" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="data" value="52" />
           <entry key="dummy" value="14" />
-          <entry key="py" value="4176" />
-          <entry key="txt" value="97" />
+          <entry key="py" value="6339" />
+          <entry key="txt" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="163" />
-          <entry key="Python" value="4176" />
+          <entry key="PLAIN_TEXT" value="164" />
+          <entry key="Python" value="6339" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab06/store_location.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <marker date="1540227008902" expanded="true" signature="905:994" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw09/words.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="99142" column="6" lean-forward="true" selection-start-line="99142" selection-start-column="6" selection-end-line="99142" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw09/anagram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <marker date="1540265325743" expanded="true" signature="247:329" ph="..." />
-                <marker date="1540265325743" expanded="true" signature="359:406" ph="..." />
-                <marker date="1540265325743" expanded="true" signature="498:503" ph="..." />
-                <marker date="1540265325743" expanded="true" signature="498:599" ph="..." />
-                <marker date="1540265325743" expanded="true" signature="498:600" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab7/moving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="194">
+              <caret line="127" column="33" lean-forward="true" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
               <folding>
-                <marker date="1540334837611" expanded="true" signature="59:64" ph="..." />
-                <marker date="1540334837611" expanded="true" signature="113:118" ph="..." />
-                <marker date="1540334837611" expanded="true" signature="192:545" ph="..." />
-                <marker date="1540334837611" expanded="true" signature="565:600" ph="..." />
-                <marker date="1540334837611" expanded="true" signature="624:629" ph="..." />
-                <marker date="1540334837611" expanded="true" signature="624:1028" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="60:65" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="118:123" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="200:556" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="603:973" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="971:973" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="1451:1452" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="1477:1482" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="1477:2116" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="2148:3303" ph="..." />
+                <marker date="1540851609148" expanded="true" signature="3264:3303" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,53 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab7/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab06/data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw06/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Code.zip/Code/quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw06/test_debug2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -206,6 +128,12 @@
       <find>recursivly</find>
       <find>get_file</find>
       <find>mergesort</find>
+      <find>apped</find>
+      <find>,mary,</find>
+      <find>sort_Data</find>
+      <find>print</find>
+      <find>vertical</find>
+      <find>strat3</find>
     </findStrings>
     <replaceStrings>
       <replace>recursively</replace>
@@ -235,6 +163,7 @@
         <option value="$PROJECT_DIR$/lab06/store_location.py" />
         <option value="$PROJECT_DIR$/hw09/words.txt" />
         <option value="$PROJECT_DIR$/hw09/anagram.py" />
+        <option value="$PROJECT_DIR$/Rec_09.py" />
         <option value="$PROJECT_DIR$/lab7/data.txt" />
         <option value="$PROJECT_DIR$/lab7/moving.py" />
       </list>
@@ -327,6 +256,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Rec_09" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HW Repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rec_09.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HW Repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -390,41 +340,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_debug2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HW Repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw06/test_debug2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test_debug2" />
       <item itemvalue="Python.store_location" />
       <item itemvalue="Python.Rec_08-Stable" />
       <item itemvalue="Python.anagram" />
       <item itemvalue="Python.moving" />
+      <item itemvalue="Python.Rec_09" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.moving" />
+        <item itemvalue="Python.Rec_09" />
         <item itemvalue="Python.anagram" />
         <item itemvalue="Python.store_location" />
         <item itemvalue="Python.Rec_08-Stable" />
-        <item itemvalue="Python.test_debug2" />
       </list>
     </recent_temporary>
   </component>
@@ -465,9 +394,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20389885" side_tool="true" weight="0.3264642" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,27 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Code.zip/Code/quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw06/test_debug2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab06/store_location.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -649,20 +557,6 @@
           <folding>
             <marker date="1540227008902" expanded="true" signature="905:994" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw09/words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="99142" column="6" lean-forward="true" selection-start-line="99142" selection-start-column="6" selection-end-line="99142" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab7/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -680,17 +574,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw09/words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="99142" column="6" selection-start-line="99142" selection-start-column="6" selection-end-line="99142" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rec_09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+          <folding>
+            <marker date="1540506553616" expanded="true" signature="608:684" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ny.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="2553" column="17" lean-forward="true" selection-start-line="2553" selection-start-column="17" selection-end-line="2553" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Code.zip/Code/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw06/test_debug2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab7/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab7/moving.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="194">
+          <caret line="127" column="33" lean-forward="true" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
           <folding>
-            <marker date="1540334837611" expanded="true" signature="59:64" ph="..." />
-            <marker date="1540334837611" expanded="true" signature="113:118" ph="..." />
-            <marker date="1540334837611" expanded="true" signature="192:545" ph="..." />
-            <marker date="1540334837611" expanded="true" signature="565:600" ph="..." />
-            <marker date="1540334837611" expanded="true" signature="624:629" ph="..." />
-            <marker date="1540334837611" expanded="true" signature="624:1028" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="60:65" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="118:123" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="200:556" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="603:973" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="971:973" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="1451:1452" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="1477:1482" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="1477:2116" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="2148:3303" ph="..." />
+            <marker date="1540851609148" expanded="true" signature="3264:3303" ph="..." />
           </folding>
         </state>
       </provider>

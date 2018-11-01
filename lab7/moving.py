@@ -1,20 +1,39 @@
 from dataclasses import dataclass
-
+'''
+Author: Jarred Moyer <jam4936@rit.edu>
+Title: moving.py
+Language: python3
+Description: Attempts to sort items into various sized boxes using loops, and custom dat structures. 
+Assignment: Lab 7
+'''
 
 @dataclass()
 class item:
+    '''
+    Item class that defines an item
+    has atributes weight and name
+    '''
+
     name: str
     weight: int
 
 
 @dataclass()
 class boxes:
+    '''
+    Boxes store items. Contains a list of items, a maximum capacity, and a capacity remaining.
+    '''
     capacity: int
     remaining_cap: int
     items: list
 
 
 def import_data(path):
+    '''
+    Imports data from the file specified by a parameter. Formats data into data structures
+    :param path: must be string
+    :return: returns an list of items and a list of boxes
+    '''
     box_list = []
     item_list = []
     lst = []
@@ -31,19 +50,31 @@ def import_data(path):
     return box_list, item_list
 
 
-def vertical_print(lst,misfit):
+def vertical_print(lst, misfit):
+    '''
+    Prints data vertically rather than horizontally
+    :param lst: list of packed boxes. Must be a list.
+    :param misfit: list of items that couldn't make it into boxes
+    :return: None
+    '''
     count = 1
     for i in lst:
-        print('Box number ', count, 'with capacity', i.capacity , 'contains:')
+        print('Box number ', count, 'with capacity', i.capacity, 'contains:')
         for k in i.items:
-            print('  ',k.name , 'of weight', k.weight)
-        #print(' Box number', count, 'Has a remaining', i.remaining_cap, 'capacity')
+            print('  ', k.name, 'of weight', k.weight)
+        # print(' Box number', count, 'Has a remaining', i.remaining_cap, 'capacity')
         count += 1
     for l in misfit:
         print(l.name, 'of weight', l.weight, 'got left behind')
 
 
 def sort_data(lst, order):
+    '''
+    Preforms a quick sort on a list of items
+    :param lst: a list only containing items
+    :param order: Boolean: true for sorting biggest to smallest, false for smallest to biggest
+    :return: sorted list
+    '''
     if not lst:
         return []
 
@@ -67,6 +98,12 @@ def sort_data(lst, order):
 
 
 def strat1(boxes, items):
+    '''
+    Sorts data using the roomiest strategy
+    :param boxes: A list of boxes
+    :param items: A list of Items
+    :return: A list of filled boxes and a list of items that couldn't fit
+    '''
     sorted_items = sort_data(items, True)
     unsorted = []
     for i in sorted_items:
@@ -93,6 +130,12 @@ def strat1(boxes, items):
 
 
 def strat2(box_data, item_data):
+    '''
+    Sorts data using the tightest fit strategy
+    :param boxes: A list of boxes
+    :param items: A list of Items
+    :return: A list of filled boxes and a list of items that couldn't fit
+    '''
     sorted_items = sort_data(item_data, True)
     unsorted = []
     for i in sorted_items:
@@ -117,33 +160,70 @@ def strat2(box_data, item_data):
     return box_data, unsorted
 
 
-def strat3(box_data, item_data):
-    sorted_items = sort_data(item_data, True)
+def strat3(box, item):
+    '''
+    Sorts data using the roomiest strategy
+    :param boxes: A list of boxes
+    :param items: A list of Items
+    :return: A list of filled boxes and a list of items that couldn't fit
+    '''
+    items = sort_data(item, True)
+    for select in box:
+        idx = 0
+        while True:
+            if idx == len(items):
+                break
+            elif select.remaining_cap >= items[idx].weight:
+                select.remaining_cap -= items[idx].weight
+                select.items.append(items[idx])
+                items.pop(idx)
+            else:
+                idx += 1
 
-    unsorted = []
-    for i in box_data:
+    return box, items
 
-        for k in sorted_items:
 
-            if i.remaining_cap >= k.weight:
-                i.items.append(k)
-                i.remaining_cap = i.remaining_cap - k.weight
-                sorted_items.remove(k)
-    print(sorted_items)
-    for i in sorted_items:
-        unsorted.append(i)
-    return box_data, unsorted
+def clear_boxes(lst):
+    '''
+    clears a box and resets it's remaining capacity
+    :param lst: list of boxes
+    :return: reset list of boxes
+    '''
+    for i in lst:
+        i.items.clear()
+        i.remaining_cap = i.capacity
+    return lst
 
 
 def main():
+    '''
+    Prompts user for a file to import. Formats the file and then tries various greedy strategies on it.
+    :return: None
+    '''
     path = input('Enter file name: ')
     box_data, item_data = import_data(path)
-
-    data, misfit = strat3(box_data, item_data)
-    if not misfit:
+    print('Sorting using strategy 1')
+    data, misfit = strat1(box_data, item_data)
+    if misfit != []:
         print('Unable to pack all items!!!!')
-    vertical_print(data,misfit)
+    vertical_print(data, misfit)
+    print('\n \n \n')
 
+    print('Sorting using strategy 2')
+    box_data = clear_boxes(box_data)
+    data, misfit = strat2(box_data, item_data)
+    if misfit != []:
+        print(misfit)
+        print('Unable to pack all items!!!!')
+    vertical_print(data, misfit)
+    print('\n \n \n')
+
+    print('Sorting using strategy 3')
+    box_data = clear_boxes(box_data)
+    data, misfit = strat3(box_data, item_data)
+    if misfit == []:
+        print('Unable to pack all items!!!!')
+    vertical_print(data, misfit)
 
 
 main()

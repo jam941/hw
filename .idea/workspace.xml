@@ -51,38 +51,39 @@
     <session id="-1796416496">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="data" value="2" />
-          <entry key="py" value="13" />
+          <entry key="py" value="28" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="data" value="52" />
           <entry key="dummy" value="14" />
-          <entry key="py" value="7405" />
+          <entry key="py" value="15548" />
           <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="91" />
-          <entry key="Python" value="7405" />
+          <entry key="Python" value="15548" />
         </counts>
       </usages-collector>
     </session>
@@ -90,85 +91,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab7/moving.py">
+        <entry file="file://$PROJECT_DIR$/reverse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="1598">
+              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
               <folding>
-                <marker date="1540957296837" expanded="true" signature="348:353" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="517:522" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="796:1152" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="1406:1776" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="1774:1776" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="2480:2481" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="2707:2712" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="2707:3346" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="3583:5321" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="5036:5133" ph="..." />
-                <marker date="1540957296837" expanded="true" signature="5282:5321" ph="..." />
+                <element signature="e#518#541#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/college.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2278">
+              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rit_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filter.py">
+        <entry file="file://$PROJECT_DIR$/rit_stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-              <folding>
-                <element signature="e#358#387#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bowties.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rec_09.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-              <folding>
-                <marker date="1540506553616" expanded="true" signature="608:684" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab08/dna.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-                <marker date="1540939633803" expanded="true" signature="105:157" ph="..." />
-                <marker date="1540939633803" expanded="true" signature="182:187" ph="..." />
-                <marker date="1540939633803" expanded="true" signature="583:703" ph="..." />
-                <marker date="1540939633803" expanded="true" signature="957:959" ph="..." />
-                <marker date="1540939633803" expanded="true" signature="1286:1706" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab08/dna_tester.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#95#105#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="409">
+              <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -195,9 +151,17 @@
       <find>{}</find>
       <find>list_tpo</find>
       <find>convert</find>
-      <find>contain</find>
       <find>{</find>
+      <find>contain</find>
       <find>.rest</find>
+      <find>animate_move</find>
+      <find>substitution</find>
+      <find>dup</find>
+      <find>convert_to_node</find>
+      <find>inser</find>
+      <find>test4</find>
+      <find>insertion</find>
+      <find>list_to</find>
     </findStrings>
     <replaceStrings>
       <replace>recursively</replace>
@@ -229,18 +193,22 @@
         <option value="$PROJECT_DIR$/lab06/big_even" />
         <option value="$PROJECT_DIR$/lab06/store_location.py" />
         <option value="$PROJECT_DIR$/lab06/select_median.py" />
-        <option value="$PROJECT_DIR$/lab08/dna.py" />
         <option value="$PROJECT_DIR$/lab7/data.txt" />
         <option value="$PROJECT_DIR$/lab7/moving.py" />
         <option value="$PROJECT_DIR$/filter.py" />
+        <option value="$PROJECT_DIR$/Lab09/ball_puzzle.py" />
+        <option value="$PROJECT_DIR$/lab08/dna_tester.py" />
+        <option value="$PROJECT_DIR$/lab08/dna.py" />
+        <option value="$PROJECT_DIR$/reverse.py" />
+        <option value="$PROJECT_DIR$/college.py" />
+        <option value="$PROJECT_DIR$/rit_stack.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="32" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -257,17 +225,7 @@
             <path>
               <item name="hw (swen_cs)" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw (swen_cs)" type="462c0819:PsiDirectoryNode" />
-              <item name="hw06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw (swen_cs)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw (swen_cs)" type="462c0819:PsiDirectoryNode" />
               <item name="hw09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw (swen_cs)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw (swen_cs)" type="462c0819:PsiDirectoryNode" />
-              <item name="lab7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hw (swen_cs)" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +244,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\School\hw (swen_cs)" />
+      <recent name="D:\School\hw (swen_cs)\Lab09" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\School\hw (swen_cs)\lab06" />
     </key>
@@ -302,7 +264,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.filter">
+  <component name="RunManager" selected="Python.college">
+    <configuration name="ball_puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HW Repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab09/ball_puzzle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="college" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HW Repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/college.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dna" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HW Repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -324,7 +328,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dna_tester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HW Repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab08/dna_tester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HW Repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,70 +361,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="moving" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HW Repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab7/moving.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="select_median" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HW Repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab06/select_median.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="store_location" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HW Repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab06/store_location.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,19 +371,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.store_location" />
-      <item itemvalue="Python.select_median" />
       <item itemvalue="Python.dna" />
-      <item itemvalue="Python.moving" />
-      <item itemvalue="Python.filter" />
+      <item itemvalue="Python.ball_puzzle" />
+      <item itemvalue="Python.dna_tester" />
+      <item itemvalue="Python.reverse" />
+      <item itemvalue="Python.college" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.filter" />
-        <item itemvalue="Python.moving" />
+        <item itemvalue="Python.college" />
+        <item itemvalue="Python.reverse" />
+        <item itemvalue="Python.dna_tester" />
         <item itemvalue="Python.dna" />
-        <item itemvalue="Python.select_median" />
-        <item itemvalue="Python.store_location" />
+        <item itemvalue="Python.ball_puzzle" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +418,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79610115" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79610115" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,7 +437,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79610115" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.79610115" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -712,40 +674,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab7/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab7/data.txt" />
     <entry file="file://$PROJECT_DIR$/lab7/moving.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <marker date="1540957296837" expanded="true" signature="348:353" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="517:522" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="796:1152" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="1406:1776" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="1774:1776" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="2480:2481" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="2707:2712" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="2707:3346" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="3583:5321" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="5036:5133" ph="..." />
-            <marker date="1540957296837" expanded="true" signature="5282:5321" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab08/dna_tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#95#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,9 +686,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <marker date="1540506553616" expanded="true" signature="608:684" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09/node.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09/ball_puzzle_animate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09/ball_puzzle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ball_puzzle_animate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab08/dna_tester.py" />
+    <entry file="file://$PROJECT_DIR$/lab08/dna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -766,28 +745,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab08/dna.py">
+    <entry file="file://$PROJECT_DIR$/reverse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="1598">
+          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <marker date="1540939633803" expanded="true" signature="105:157" ph="..." />
-            <marker date="1540939633803" expanded="true" signature="182:187" ph="..." />
-            <marker date="1540939633803" expanded="true" signature="583:703" ph="..." />
-            <marker date="1540939633803" expanded="true" signature="957:959" ph="..." />
-            <marker date="1540939633803" expanded="true" signature="1286:1706" ph="..." />
+            <element signature="e#518#541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter.py">
+    <entry file="file://$PROJECT_DIR$/college.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-          <folding>
-            <element signature="e#358#387#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2278">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rit_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rit_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
         </state>
       </provider>
     </entry>

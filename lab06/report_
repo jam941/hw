@@ -1,0 +1,32 @@
+1.	The pivot is just the value which separates the bigger list from the smaller list. This number doesn’t have to be
+the value at the middle index, it can be any of the values in the list as pivot is relative to the whole data set.
+
+2.	Test cases:
+
+In order to properly test quick_select(), you must test the function with different lists and k values. You must test
+it on odd, even, sorted, and unsorted lists. You must check it on random, initial, and final k values.
+
+
+1,2,3   k = 0  __> 1   test on ordered list
+1,3,6,5   k=2 ----> 5   test on random list
+1,1,1,1  k=3   ----> 3  test on identical list
+1,8,5,2,9,7,5 k = 2 ----> 5 test on k is random
+1,2,3,4 k =1 ------> 2  test on even list
+
+4,3,2,1,0 k=3 ----> 3 test on odd list
+
+1,2,3,4 k = 0 ----> 1 initial index
+5.7.4.2 k = 3 -----> 7 final index
+
+3.	For quick select (in seconds):
+
+0.11671733856201172 (500ktest odd)
+0.25031042098999023 (500ktest even)
+0.004920005798339844 (test_dataset_large)
+
+
+For quick sort (in seconds):
+0.1156916618347168 (500ktest odd)
+0.2522926330566406 (500ktest even)
+0.0050122737884521484 (test_dataset_large)
+

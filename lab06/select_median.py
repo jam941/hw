@@ -1,5 +1,18 @@
 import time
+'''
+Author: Jarred Moyer <jam4936@rit.edu>
+Title: select_median.py
+Language: python3
+Description: Uses file reading, looping, and lists, to calculate the optimum position fo a shop. Uses 
+quick select rather than quick sort. 
+Assignment: Lab 3
+'''
 def import_data(path):
+    '''
+    Imports data from a file and formats it for further processing
+    Path must be a string
+    Returns a list of numbers from the file
+    '''
     f = open(path)
     lst = []
     for i in f:
@@ -9,6 +22,10 @@ def import_data(path):
     print(lst)
     return lst
 def partition(pivot,lst):
+    '''
+    Creates lesser, greater, and same lists based ona  pivot point from a list
+    pivot must exist and lst must be a list
+    '''
     smaller = []
     same = []
     bigger = []
@@ -24,7 +41,10 @@ def partition(pivot,lst):
 
 
 def quick_select(data,k):
-
+    '''
+    Preforms a quick select on a list called data at the value k
+    data must be a list, k must exist
+    '''
     if data != []:
         #print(data)
 
@@ -44,6 +64,10 @@ def quick_select(data,k):
 
 def find_med(data):
 
+    '''
+    Finds the optimum shop placement
+    data must be a list
+    '''
     length  = int(len(data))
 
 
@@ -58,6 +82,10 @@ def find_med(data):
         return quick_select(data,length/2)
 
 def distance(lst, shop):
+    '''
+    Calculates the distance between a list of offices and the shop
+    lst must be a list, shop must be a number
+    '''
     sum = 0
     for i in lst:
         dis = abs(shop-i)
@@ -66,6 +94,9 @@ def distance(lst, shop):
 
 
 def main():
+    '''
+    Calculates the optimimim shop placement and its distance to each building.
+    '''
     path = input('What file would you like to open?: ')
 
     data = import_data(path)

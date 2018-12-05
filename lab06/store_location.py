@@ -1,5 +1,18 @@
 import time
+'''
+Author: Jarred Moyer <jam4936@rit.edu>
+Title: store_location.py
+Language: python3
+Description: Uses file reading, looping, and lists, to calculate the optimum position fo a shop. Uses 
+quick sort rather than quick select. 
+Assignment: Lab 6
+'''
 def import_data(path):
+    '''
+    Imports data from a file and formats it for further processing
+    Path must be a string
+    Returns a list of numbers from the file
+    '''
     f = open(path)
     lst = []
     for i in f:
@@ -10,7 +23,11 @@ def import_data(path):
     return lst
 
 def quick_sort(data):
-
+    '''
+    Preforms a quick sort on a list
+    Data must be a list
+    Returns the sorted list
+    '''
     if data == []:
         return data
     else:
@@ -32,7 +49,10 @@ def quick_sort(data):
         return quick_sort(less) + same + quick_sort(more)
 
 def find_med(data):
-
+    '''
+    Finds the optimum shop placement
+    data must be a list
+    '''
     lst = quick_sort(data)
 
     length  = int(len(lst))
@@ -45,6 +65,10 @@ def find_med(data):
         return int(lst[int(length/2)])
 
 def distance(lst, shop):
+    '''
+    Calculates the distance between a list of offices and the shop
+    lst must be a list, shop must be a number
+    '''
     sum = 0
     for i in lst:
         dis = abs(shop-i)
@@ -53,6 +77,9 @@ def distance(lst, shop):
 
 
 def main():
+    '''
+    Calculates the optimimim shop placement and its distance to each building.
+    '''
     path = input('What file would you like to open?: ')
 
     data = import_data(path)
